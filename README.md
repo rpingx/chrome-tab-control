@@ -3,9 +3,11 @@
 ## Overview
 The Tab Control Chrome Extension allows you to manage your open tabs more effectively by providing the following functionalities:
 1. **Close tabs to the left**: Right-click on a tab and select "Close tabs to the left" to close all tabs to the left of the selected tab.
+
 ![preview of "Close tabs to the left"](https://github.com/rpingx/chrome-tab-control/raw/main/preview-0.png "preview of 'Close tabs to the left'")
 
 2. **Tab Limit Enforcement**: Set a limit on the number of open tabs. When the limit is exceeded, the extension automatically closes the leftmost ungrouped tab.
+
 ![preview of "Set maximum number of tabs"](https://github.com/rpingx/chrome-tab-control/raw/main/preview-1.png "preview of 'Set maximum number of tabs'")
 
 ## Installation
