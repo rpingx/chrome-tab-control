@@ -36,7 +36,8 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     if (info.menuItemId === "closeTabsToLeft") {
         chrome.tabs.query({ currentWindow: true }, (tabs) => {
             const tabIndex = tabs.findIndex(t => t.id === tab.id);
-            const tabsToClose = tabs.slice(0, tabIndex);
+            // Filter out tabs that are in groups
+            const tabsToClose = tabs.slice(0, tabIndex).filter(t => t.groupId === -1);
             tabsToClose.forEach(t => chrome.tabs.remove(t.id));
         });
     }
