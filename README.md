@@ -1,5 +1,11 @@
 # Tab Control Chrome Extension
 
+This extension solves more of a me-problem. I just tend to open a lot of tabs without ever organizing or prioritizing which tabs are important.
+
+This extension allows me to manually purge all tabs to the left of my current tab.
+
+Also, it let's me set a maximum number of open tabs. If I want to keep a tab, I added it to a group.
+
 ## Overview
 The Tab Control Chrome Extension allows you to manage your open tabs more effectively by providing the following functionalities:
 1. **Close tabs to the left**: Right-click on a tab and select "Close tabs to the left" to close all tabs to the left of the selected tab.
