@@ -4,7 +4,6 @@
     "version": "1.0",
     "description": "Close tabs to the left and limit the number of open tabs.",
     "permissions": [
-        "tabs",
         "contextMenus",
         "storage"
     ],
