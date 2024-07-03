@@ -6,7 +6,7 @@ This extension allows me to manually purge all tabs to the left of my current ta
 
 It also lets me set a maximum number of open tabs. Whenever I go over the limit, the leftmost tab gets closed.
 
-If I want to keep a tab, I added it to a group.
+If I want to keep a tab, I add it to a group. Any tabs in a group is ignored by this extension.
 
 ## Overview
 The Tab Control Chrome Extension allows you to manage your open tabs more effectively by providing the following functionalities:
